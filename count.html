@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script>
+    function count(){
+        const curentval = document.getElementById("btn").innerHTML;
+        const currentCount=curentval.split(" ")[1];
+        const newcount=parseInt(currentCount)+1;
+        document.getElementById("btn").innerHTML="counter "+ newcount;
+    }
+</script>
+<body>
+    <button onclick="count()" id="btn">counter 0</button>
+</body>
+</html>
+
+
